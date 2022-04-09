@@ -4,9 +4,9 @@ public class Main {
 	public static void main(String[] args) {
 		
 		
-		double preço1 = 40;
+		double preco1 = 40;
 		//simples
-		double preço2 = 70;
+		double preco2 = 70;
 		//trufado
 		
 		int peso1 = 150;
@@ -33,28 +33,28 @@ public class Main {
 		String tipo2 = "Trufados";
 		
 		
-		System.out.println("VENDAS DE OVOS DE PÁSCOA");
+		System.out.println("VENDAS DE OVOS DE Pï¿½SCOA");
 		System.out.println("");
-		System.out.printf("Ovos %s: R$ %.2f\n" ,tipo1, preço1);
-		System.out.printf("Ovos %s: R$ %.2f\n" ,tipo2, preço2);
+		System.out.printf("Ovos %s: R$ %.2f\n" ,tipo1, preco1);
+		System.out.printf("Ovos %s: R$ %.2f\n" ,tipo2, preco2);
 		System.out.println("");
 		System.out.printf("Peso dos Ovos: %dg,%dg,%dg \n" ,peso1,peso2,peso3);
 		System.out.println("");
 		System.out.printf("Cliente:%s \n", Cliente1);
-		System.out.printf("Número do Pedido:%d \n", pedido4);
+		System.out.printf("Nï¿½mero do Pedido:%d \n", pedido4);
 		System.out.printf("Pedido: %d ovos %s de %dg \n", quantidade3,tipo2,peso2);
 		
-		//VENDAS DE OVOS DE PÁSCOA
+		//VENDAS DE OVOS DE Pï¿½SCOA
 		
 		//Ovos simples: R$40,00 reais
 		//Ovos trufados: R$70,00 reais
 		
 		//Peso dos ovos: 150g 250g 350g
 		
-		//Número de pedidos: 7
+		//Nï¿½mero de pedidos: 7
 		
 		//Cliente: Leonardo
-		//Número do pedido:4
+		//Nï¿½mero do pedido:4
 		//Pedido: 3 ovos trufados de 250g
 		
 

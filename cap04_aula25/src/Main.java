@@ -4,7 +4,7 @@ public class Main {
 	public static void main(String[] args) {
 
 		int x, y;
-		//ambos são números inteiros
+		//ambos sï¿½o nï¿½meros inteiros
 		x = 5;
 
 		y = 2 * x;
@@ -17,7 +17,7 @@ public class Main {
 		exemplo2();
 		exemplo3();
 		exemplo4();
-		resolução4();
+		resolucao4();
 		exemplo5();
 	}
 
@@ -25,9 +25,9 @@ public class Main {
 		
 		int x;
 		double y;
-		//aqui o tipo das variáveis são diferentes,
-		//a segunda já é do tipo double, ou seja,ele imprimirá um número com "ponto", 
-		//indicando que é um n com ponto flutuante (10.0)
+		//aqui o tipo das variï¿½veis sï¿½o diferentes,
+		//a segunda jï¿½ ï¿½ do tipo double, ou seja,ele imprimirï¿½ um nï¿½mero com "ponto", 
+		//indicando que ï¿½ um n com ponto flutuante (10.0)
 		
 		x = 5;
 		y = 2 * x;
@@ -64,16 +64,16 @@ public class Main {
 		resultado = a/b;
 		
 		System.out.println(resultado);
-		//o resultado, apesar de ser 2,5, será impresso 2.0, pois as duas variáveis a e b acima
-		//são do tipo inteiro(int), entendendo que se "quer" um resultado inteiro também...
-		//portanto, preciso que se entenda que eu quero que se aceite o resultado real que é um número double
-		// então acrescento double ao resultado
+		//o resultado, apesar de ser 2,5, serï¿½ impresso 2.0, pois as duas variï¿½veis a e b acima
+		//sï¿½o do tipo inteiro(int), entendendo que se "quer" um resultado inteiro tambï¿½m...
+		//portanto, preciso que se entenda que eu quero que se aceite o resultado real que ï¿½ um nï¿½mero double
+		// entï¿½o acrescento double ao resultado
 		
 		System.out.println();
-		//então entro com a seguinte resolução		
+		//entï¿½o entro com a seguinte resoluï¿½ï¿½o		
 	}
 	
-	static void resolução4() {
+	static void resolucao4() {
 		
 		int a, b;
 		double resultado;
@@ -94,9 +94,9 @@ public class Main {
 		int b;
 		a = 5.0;
 		b = (int)a;
-		//quando o compilador acha que vai perder informação,pois a pricipio,
-		//como está, não posso converter de double pra int, então devo colocar que aceito
-		//um número inteiro em b, especificando (int)a
+		//quando o compilador acha que vai perder informaï¿½ï¿½o,pois a pricipio,
+		//como estï¿½, nï¿½o posso converter de double pra int, entï¿½o devo colocar que aceito
+		//um nï¿½mero inteiro em b, especificando (int)a
 		
 		System.out.println(b);
 		
